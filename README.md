@@ -11,7 +11,7 @@ questionHandler.answer("Who is Pietro", 0.3, 0.5)
 ```
 to check if the database presumably has an answer to this question. The second argument is the threshold at which the bot "gives up" and answers that it does not know whilst the third argument is the penalty applied for what appears to be a typo in the question. Thereby making it more robust to typos.</br>
 ```java
- System.out.println("Output:" + questionHandler.answer("Who is Pietro", 0.3, 0.5));
+System.out.println("Output:" + questionHandler.answer("Who is Pietro", 0.3, 0.5));
 
 System.out.println("Output:" + questionHandler.answer("What is Pietro", 1.0, 0.5));
 
